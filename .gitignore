@@ -1,0 +1,37 @@
+# Ignore virtual environments
+venv/
+.env/
+ENV/
+env/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore data and model files
+data/
+*.csv
+*.h5
+*.pkl
+*.model
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore VSCode settings (optional)
+.vscode/
+
+# Keep requirements.txt (DO NOT IGNORE IT)
+# requirements.txt should be tracked
